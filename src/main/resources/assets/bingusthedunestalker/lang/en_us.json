@@ -1,5 +1,8 @@
 {
   "item.bingusthedunestalker.bingustooth": "Bingus Tooth",
 
-  "block.bingusthedunestalker.bingustooth_block": "Block of bingus teeth"
+  "block.bingusthedunestalker.bingustooth_block": "Block of bingus teeth",
+
+  "creativetab.bingusthedunestalker.bingus_items": "Bingus Items",
+  "creativetab.bingusthedunestalker.bingus_blocks": "Bingus Blocks"
 }

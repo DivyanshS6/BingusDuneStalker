@@ -1,6 +1,7 @@
 package net.ImmenseJaguar.Bingus;
 
 import net.ImmenseJaguar.Bingus.block.ModBlocks;
+import net.ImmenseJaguar.Bingus.item.ModCreativeModeTabs;
 import net.ImmenseJaguar.Bingus.item.ModItems;
 import org.slf4j.Logger;
 
@@ -58,8 +59,12 @@ public class Bingus
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
 
 
         // Register the item to a creative tab
@@ -80,6 +85,8 @@ public class Bingus
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BINGUSTOOTH);
         }
+
+
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BINGUSTOOTH_BLOCK);
