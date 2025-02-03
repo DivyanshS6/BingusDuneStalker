@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.7,
+  "group": "trifilium_ingot",
+  "ingredient": {
+    "item": "bingusthedunestalker:raw_trifilium"
+  },
+  "result": {
+    "id": "bingusthedunestalker:trifilium_ingot"
+  }
+}

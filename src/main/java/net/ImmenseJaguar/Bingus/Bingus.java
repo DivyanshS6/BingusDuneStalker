@@ -84,12 +84,15 @@ public class Bingus
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BINGUSTOOTH);
+            event.accept(ModItems.TRIFILIUM_INGOT);
+            event.accept(ModItems.RAW_TRIFILIUM);
         }
 
 
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BINGUSTOOTH_BLOCK);
+            event.accept(ModBlocks.TRIFILIUM_ORE);
         }
     }
 

@@ -29,6 +29,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
 
                         output.accept(ModItems.BINGUSTOOTH);
+                        output.accept(ModItems.TRIFILIUM_INGOT);
+                        output.accept(ModItems.RAW_TRIFILIUM);
 
                     }).build());
 
@@ -40,6 +42,8 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
 
                         output.accept(ModBlocks.BINGUSTOOTH_BLOCK);
+                        output.accept(ModBlocks.TRIFILIUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_TRIFILIUM_ORE);
 
                     }).build());
 

@@ -1,7 +1,11 @@
 {
   "item.bingusthedunestalker.bingustooth": "Bingus Tooth",
+  "item.bingusthedunestalker.trifilium_ingot": "Trifilium Ingot",
+  "item.bingusthedunestalker.raw_trifilium": "Raw Trifilium",
 
-  "block.bingusthedunestalker.bingustooth_block": "Block of bingus teeth",
+  "block.bingusthedunestalker.bingustooth_block": "Block of Bingus Teeth",
+  "block.bingusthedunestalker.trifilium_ore": "Trifilium Ore",
+  "block.bingusthedunestalker.deepslate_trifilium_ore": "Deepslate Trifilium Ore",
 
   "creativetab.bingusthedunestalker.bingus_items": "Bingus Items",
   "creativetab.bingusthedunestalker.bingus_blocks": "Bingus Blocks"

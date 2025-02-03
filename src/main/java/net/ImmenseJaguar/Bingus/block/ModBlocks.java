@@ -23,6 +23,13 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.BAMBOO)));
 
+    public static final DeferredBlock<Block> TRIFILIUM_ORE = registerBlock("trifilium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3, 5),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.GILDED_BLACKSTONE)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_TRIFILIUM_ORE = registerBlock("deepslate_trifilium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4, 6),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
 
